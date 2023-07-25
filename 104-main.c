@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+#include <stdio.h>
+#include <stdlib.h>
+>>>>>>> 8bf78a8a3c823a0d3568aa62b671911df92ef5ff
 #include "sort.h"
 
 /**

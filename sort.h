@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 #ifndef _SORT_H
 #define _SORT_H
 #include <stdlib.h>
 #include <stdio.h>
+=======
+#ifndef SORT_H
+#define SORT_H
+
+#include <stdlib.h>
+>>>>>>> 8bf78a8a3c823a0d3568aa62b671911df92ef5ff
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -15,10 +22,18 @@ typedef struct listint_s
 	struct listint_s *prev;
 	struct listint_s *next;
 } listint_t;
+<<<<<<< HEAD
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void print_list_rev(const listint_t *list);
 void bubble_sort(int *array, size_t size);
+=======
+
+void bubble_sort(int *array, size_t size);
+void print_array(const int *array, size_t size);
+void print_list(const listint_t *list);
+listint_t *swap_node(listint_t *node, listint_t **list);
+>>>>>>> 8bf78a8a3c823a0d3568aa62b671911df92ef5ff
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
@@ -28,4 +43,10 @@ void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
+<<<<<<< HEAD
+=======
+void bitonic_sort(int *array, size_t size);
+void quick_sort_hoare(int *array, size_t size);
+
+>>>>>>> 8bf78a8a3c823a0d3568aa62b671911df92ef5ff
 #endif

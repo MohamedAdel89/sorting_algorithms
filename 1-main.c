@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+#include <stdio.h>
+#include <stdlib.h>
+>>>>>>> 8bf78a8a3c823a0d3568aa62b671911df92ef5ff
 #include "sort.h"
 
 /**
@@ -39,7 +44,11 @@ listint_t *create_listint(const int *array, size_t size)
 int main(void)
 {
 	listint_t *list;
+<<<<<<< HEAD
 	int array[] = {-1, 0, 1, 2, 3};
+=======
+	int array[] = {19, 48, 99, 71, 13, 52, 96, 73, 86, 7};
+>>>>>>> 8bf78a8a3c823a0d3568aa62b671911df92ef5ff
 	size_t n = sizeof(array) / sizeof(array[0]);
 
 	list = create_listint(array, n);
